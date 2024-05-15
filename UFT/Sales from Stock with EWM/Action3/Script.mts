@@ -1,4 +1,4 @@
-﻿AIUtil.SetContext Browser("creationtime:=0")
+﻿AIUtil.SetContext Browser("creationtime:=3")
 'Login if needed
 'AIUtil("text_box", "User").Type "S4H_SD_DEM"
 'AIUtil("text_box", "Password").Type "Welcome1"

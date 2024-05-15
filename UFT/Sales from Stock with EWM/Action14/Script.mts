@@ -1,5 +1,5 @@
 ﻿' Logout
-AIUtil.SetContext Browser("creationtime:=0")
+AIUtil.SetContext Browser("creationtime:=3")
 AIUtil("profile").DoubleClick
 AIUtil("button", "").Click
 AIUtil.FindTextBlock("Sign Out").Click

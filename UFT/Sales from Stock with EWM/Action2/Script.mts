@@ -1,5 +1,5 @@
 ﻿''' Login
-AIUtil.SetContext Browser("creationtime:=0")
+AIUtil.SetContext Browser("creationtime:=3")
 'AIUtil("text_box", "User").Type "S4H_SD_DEM"
 'AIUtil("text_box", "Password").Type "Welcome1"
 'AIUtil.FindTextBlock("Log On").Click
@@ -31,7 +31,7 @@ AIUtil("search", micAnyText, micFromBottom, 1).Click
 AIUtil("check_mark").Click
 AIUtil("button", "Continue").Click
 
-AIUtil.SetContext Browser("creationtime:=0")
+AIUtil.SetContext Browser("creationtime:=3")
 AIUtil("text_box", "Sold-To Party").Type "EWM17-CU01"
 AIUtil.FindTextBlock("EWM17-CU01").Click
 AIUtil("text_box", "Ship-To Party").Type "EWM17-CU01"
@@ -53,7 +53,7 @@ AIUtil.FindTextBlock("Item Overview").Click
 AIUtil.FindTextBlock("Continue").Click
 
 'add parts
-AIUtil.SetContext Browser("creationtime:=0")
+AIUtil.SetContext Browser("creationtime:=3")
 
 AIUtil.FindTextBlock("Item detail").Click
 
@@ -73,7 +73,7 @@ AIUtil.FindTextBlock("1").Click
 AIUtil("check_mark").Click
 AIUtil("button", "Save").Click
 'checkpoint
-AIUtil.SetContext Browser("creationtime:=0")
+AIUtil.SetContext Browser("creationtime:=3")
 AIUtil.FindTextBlock(AIRegex("Quotation \d+ has been saved")).CheckExists(True)
 
 'add save for quote number - to be debugged
