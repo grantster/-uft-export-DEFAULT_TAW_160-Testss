@@ -9,7 +9,9 @@
 AIUtil.FindTextBlock("My Sales Overview").Click
 AIUtil.FindTextBlock("Open Sales Quotations").Click
 'Modfy nex line to pick up Quote using regex
-AIUtil("radio_button", "20001949").SetState "On"
+
+AIUtil("radio_button", micAnyText, micFromTop, 1).SetState "On"
+'AIUtil("radio_button", "20001949").SetState "On"
 
 AIUtil.FindTextBlock("Create Subsequent Order").Click
 AIUtil("down_triangle", micAnyText, micFromLeft, 5).Click
