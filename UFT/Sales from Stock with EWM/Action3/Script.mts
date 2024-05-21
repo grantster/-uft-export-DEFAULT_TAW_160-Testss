@@ -26,7 +26,7 @@ AIUtil("copy").Click
 'AIUtil.FindTextBlock("May").Click
 'AIUtil.FindTextBlock("1").Click
 AIUtil.FindTextBlock("Choose").Click
-AIUtil.SetContext Browser("creationtime:=0")
+'AIUtil.SetContext Browser("creationtime:=0")
 
 AIUtil("button", "", micFromLeft, 9).Click
 AIUtil.FindTextBlock("Shipping").Click
